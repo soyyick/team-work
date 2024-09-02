@@ -128,3 +128,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# settings.py
+
+LOGIN_REDIRECT_URL = 'home'  # URL ที่คุณต้องการให้ผู้ใช้ไปหลังจาก login สำเร็จ
+LOGOUT_REDIRECT_URL = 'login'  # URL ที่คุณต้องการให้ผู้ใช้ไปหลังจาก logout สำเร็จ
+
