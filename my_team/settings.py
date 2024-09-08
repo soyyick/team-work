@@ -133,4 +133,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = 'home'  # URL ที่คุณต้องการให้ผู้ใช้ไปหลังจาก login สำเร็จ
 LOGOUT_REDIRECT_URL = 'login'  # URL ที่คุณต้องการให้ผู้ใช้ไปหลังจาก logout สำเร็จ
-
+LOGOUT_REDIRECT_URL = 'map'  # URL ที่คุณต้องการให้ผู้ใช้ไปหลังจาก logout สำเร็จ
