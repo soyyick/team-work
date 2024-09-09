@@ -23,5 +23,9 @@ def loginPage(request):
             messages.error(request, 'Invalid username or password')
     return render(request, 'login.html')
 def mappage(request):
+<<<<<<< HEAD
     return render(request, 'map.html')
 >>>>>>> e09930b19ee8f0f38869578d4db7dbdeecd94b04
+=======
+    return render(request, 'map.html')
+>>>>>>> 051f978eebb86c8e562d3a434c2673e9d07c8899
